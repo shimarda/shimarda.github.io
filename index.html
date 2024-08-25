@@ -5,13 +5,21 @@
     <meta charset = "utf-8">
     <meta name = "viewport" content = "width = device - width, initial-scale = 1">
     <title>smdのサイト</title>
+
+    <link href="./style.css" rel="stylesheet">
 </head>
 
+
 <body>
-    <p>これは私が今後開発していくウェブページです</p>
+    <h1>これは私が今後開発していくウェブページです</h1>
 
     <p>html, css, javascriptは<br>
     このサイトの開発を通して学びます。</p>
+<ul>
+    <li id="first"><a href="x.com">x</a></li>
+    <li id="second">instagram</li>
+</ul>
+
 
     <!-- 以下はリンクとか -->
     <p>私のgithubは
@@ -19,6 +27,27 @@
         target="_blank"
         rel="noopener">こちら</a>で確認可能です。
     </p>
+
+    <form>
+        名前:<input>
+        <button>送信</button>
+    </form>
+
+    <table>
+        <tr>
+            <td><label for="name"></label></td>
+            <td><input id="name"></td>
+        </tr>
+    </table>
+    name:<input><br>
+    password:<input type="password"><br>
+    mail:<input type="email" min="100" max="900" step="100"><br>
+
+    <label>
+        備考:<br>
+        <textarea col="50" rows="5" maxlength="200"></textarea>
+    </label>
+
 </body>
 
 </html>
