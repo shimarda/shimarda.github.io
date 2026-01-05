@@ -1,0 +1,9 @@
+title: smd's site
+description: "My personal website"
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-seo-tag
+
+aux_links:
+  GitHub: https://github.com/shimarda
